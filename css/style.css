@@ -206,4 +206,42 @@
 }
 /* reson section design end */
 
-/*  */
+/* inspiration section design start */
+.inspiration-container{
+    /* border:1px solid red; */
+    width:1140px;
+    height:775px;
+    margin:70px auto 125px;
+}
+.inspiration-top{
+    /* border:1px solid red; */
+    width: 852px;
+    height:113px;
+    margin:0 auto 48px;
+    text-align: center;
+}
+.inspiration-top h1{
+    color:rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom:24px;
+}
+.inspiration-top p{
+    color:rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.inspiration-main{
+    /* border:1px solid red; */
+    width:1140px;
+    height:614px;
+    padding:32px;
+}
+.inspiration-video{
+    width: 1076px;
+    height: 550px;
+}
+
+/* inspiration section design end */
