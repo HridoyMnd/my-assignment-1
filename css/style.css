@@ -245,3 +245,107 @@
 }
 
 /* inspiration section design end */
+
+/* target section design start */
+.target-container{
+    /* border:1px solid red; */
+    width: 1140px;
+    height: 462px;
+    margin:25px auto 60px;
+}
+.target-container .header{
+    /* border: 1px solid red; */
+    width: 852px;
+    height: 115px;
+    margin:0 auto 24px;
+    text-align: center;
+}
+.target-container .header h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    color: rgb(13, 19, 33);
+}
+.target-container .header p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+}
+.target-container .main{
+    /* border: 1px solid red; */
+    width: 1140px;
+    height: 299px;
+    margin:24px auto 50px;
+    display: flex;
+    gap: 20px;
+}
+ .main .language-1, .main .language-2, .main .language-3{
+    /* border: 1px solid red; */
+    width: 364px;
+    height: 299px;
+    margin: 0 auto;
+    padding:40px;
+
+ }
+ .language-1 h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    color: rgb(13, 19, 33);
+ } 
+ .language-1 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    margin: 8px 10px 24px 0;
+ }
+ .language-1 a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom:0px;
+ }
+ .language-2 h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    color: rgb(13, 19, 33);
+ } 
+ .language-2 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    margin: 8px 10px 24px 0;
+ }
+ .language-2 a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom:0px;
+ }
+ .language-3 h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    color: rgb(13, 19, 33);
+ } 
+ .language-3 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    margin: 8px 10px 24px 0;
+ }
+ .language-3 a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom:0px;
+ }
+/* target section design end */
