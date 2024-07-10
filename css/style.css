@@ -265,6 +265,7 @@
     font-weight: 800;
     line-height: 37px;
     color: rgb(13, 19, 33);
+    margin-bottom:24px;
 }
 .target-container .header p{
     font-weight: 400;
@@ -286,9 +287,20 @@
     height: 299px;
     margin: 0 auto;
     padding:40px;
+    border-radius: 16px;
 
  }
+ .language-1{
+    background: rgba(255, 76, 30, 0.05);
+ }
+ .language-2{
+    background: rgba(0, 76, 232, 0.05);
+ }
+ .language-3{
+    background: rgba(255, 223, 0, 0.05);
+ }
  .language-1 h1{
+    
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
@@ -309,6 +321,7 @@
     margin-bottom:0px;
  }
  .language-2 h1{
+    
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
@@ -333,6 +346,7 @@
     font-weight: 800;
     line-height: 36px;
     color: rgb(13, 19, 33);
+   
  } 
  .language-3 p{
     font-weight: 400;
