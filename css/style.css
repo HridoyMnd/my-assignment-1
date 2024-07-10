@@ -64,6 +64,8 @@
     width:1140px;
     height:1395px;
     margin:74px auto 18px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
 .reson-content{
     width: 946px;
@@ -132,5 +134,73 @@
 .reson-content .hero .hero-right{
     width: 274px;
     height: 240px;
+}
+.main .main-content{
+    border:1px solid black;
+    width: 850px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+}
+.main .main-content .right{
+    margin:10px 101px 10px 32px;
+}
+.main-content .right h1{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color:rgba(13, 19, 33, 0.7);
+    letter-spacing: -1px;
+}
+.main-content .right p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:rgba(13, 19, 33, 0.7);
+    margin:16px 1px 32px 0px;
+}
+.main-content .right button{
+    width: 171px;
+    height: 47px;
+    color:rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    background:none;
+    border:2px solid rgba(13, 19, 33, 0.7);
+}
+.footer .footer-content .left h1{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color:rgba(13, 19, 33, 0.7);
+    letter-spacing: -1px;
+}
+
+.footer .footer-content .left p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:rgba(13, 19, 33, 0.7);
+    margin:16px 1px 32px 0px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content .left{
+    width: 477px;
+    height: 220px;
+}
+.footer-content .left button{
+    width: 171px;
+    height: 47px;
+    color:rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    background:none;
+    border:2px solid rgba(13, 19, 33, 0.7);
 }
 /* reson section design end */
