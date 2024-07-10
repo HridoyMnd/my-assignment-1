@@ -42,6 +42,7 @@
     line-height: 26px;
     margin:14px auto 12px;
     width: 900px;
+    opacity: 0.7;
     
 }
 .hero-btn button{
@@ -57,5 +58,79 @@
     border-radius:8px;
     margin: 20px auto 44px;
 }
-
 /* hero-section-style-end */
+/* reson section design start */
+.reson-container{
+    width:1140px;
+    height:1395px;
+    margin:74px auto 18px;
+}
+.reson-content{
+    width: 946px;
+    height: 1235px;
+    margin:80px 97px;
+}
+.reson-content .topbar{
+    width:852px;
+    height:115px;
+    margin:0 auto 48px;
+    text-align: center;
+    color:rgba(13, 19, 33);
+}
+.reson-content .topbar h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.reson-content .topbar p{
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top:24px;
+}
+.reson-content .hero, .reson-content .main, .reson-content .footer{
+    border:1px solid red;
+    width: 946px;
+    height:336px;
+    margin:0 auto 32px;
+    padding:48px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reson-content .hero .hero-left{
+    width: 477px;
+    height: 219px;
+}
+.reson-content .hero .hero-left h1{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color:rgba(13, 19, 33, 0.7);
+    letter-spacing: -1px;
+}
+.reson-content .hero .hero-left p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:rgba(13, 19, 33, 0.7);
+    margin:16px 1px 32px 0px;
+}
+.reson-content .hero .hero-left button{
+    width: 171px;
+    height: 47px;
+    color:rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    background:none;
+    border:2px solid rgba(13, 19, 33, 0.7);
+}
+.reson-content .hero .hero-right{
+    width: 274px;
+    height: 240px;
+}
+/* reson section design end */
